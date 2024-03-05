@@ -1,0 +1,258 @@
+tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 
+bytes
+20:31:58.232427 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 1922742040:1922742148, ack 1628962861, win 501, options [nop,nop,TS 
+val 3854903038 ecr 2737002769], length 108
+20:31:58.232516 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 108:264, ack 1, win 501, options [nop,nop,TS val 3854903038 ecr 
+2737002769], length 156
+20:31:58.232561 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 264:332, ack 1, win 501, options [nop,nop,TS val 3854903038 ecr 
+2737002769], length 68
+20:31:58.232605 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 332:368, ack 1, win 501, options [nop,nop,TS val 3854903038 ecr 
+2737002769], length 36
+20:31:58.246004 IP 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206 > 
+comp3134.ssh: Flags [.], ack 368, win 2043, options [nop,nop,TS val 
+2737002788 ecr 3854903038], length 0
+20:31:58.327646 IP comp3134.57012 > 67.207.67.2.domain: 26967+ [1au] PTR? 
+177.42.230.99.in-addr.arpa. (55)
+20:31:58.327742 IP comp3134.42273 > 67.207.67.2.domain: 38146+ [1au] PTR? 
+177.42.230.99.in-addr.arpa. (55)
+20:31:58.333478 IP 67.207.67.2.domain > comp3134.42273: 38146 1/0/1 PTR 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com. (124)
+20:31:58.333479 IP 67.207.67.2.domain > comp3134.57012: 26967 1/0/1 PTR 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com. (124)
+20:31:58.334183 IP comp3134.33382 > 67.207.67.2.domain: 7717+ [1au] PTR? 
+82.40.122.134.in-addr.arpa. (55)
+20:31:58.351237 IP 67.207.67.2.domain > comp3134.33382: 7717 NXDomain 
+0/1/1 (122)
+20:31:58.351416 IP comp3134.33382 > 67.207.67.2.domain: 7717+ PTR? 
+82.40.122.134.in-addr.arpa. (44)
+20:31:58.352134 IP 67.207.67.2.domain > comp3134.33382: 7717 NXDomain 
+0/1/0 (111)
+20:31:58.352829 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 368:628, ack 1, win 501, options [nop,nop,TS val 3854903159 ecr 
+2737002788], length 260
+20:31:58.352931 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 628:664, ack 1, win 501, options [nop,nop,TS val 3854903159 ecr 
+2737002788], length 36
+20:31:58.353024 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 664:900, ack 1, win 501, options [nop,nop,TS val 3854903159 ecr 
+2737002788], length 236
+20:31:58.353070 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 900:936, ack 1, win 501, options [nop,nop,TS val 3854903159 ecr 
+2737002788], length 36
+20:31:58.353139 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 936:1172, ack 1, win 501, options [nop,nop,TS val 3854903159 ecr 
+2737002788], length 236
+20:31:58.353185 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 1172:1208, ack 1, win 501, options [nop,nop,TS val 3854903159 ecr 
+2737002788], length 36
+20:31:58.353245 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 1208:1444, ack 1, win 501, options [nop,nop,TS val 3854903159 ecr 
+2737002788], length 236
+20:31:58.353287 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 1444:1480, ack 1, win 501, options [nop,nop,TS val 3854903159 ecr 
+2737002788], length 36
+20:31:58.353330 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 1480:1708, ack 1, win 501, options [nop,nop,TS val 3854903159 ecr 
+2737002788], length 228
+20:31:58.353373 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 1708:1744, ack 1, win 501, options [nop,nop,TS val 3854903159 ecr 
+2737002788], length 36
+20:31:58.365992 IP 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206 > 
+comp3134.ssh: Flags [.], ack 1744, win 2043, options [nop,nop,TS val 
+2737002912 ecr 3854903159], length 0
+20:31:58.429260 IP comp3134.43717 > 67.207.67.2.domain: 10104+ [1au] PTR? 
+2.67.207.67.in-addr.arpa. (53)
+20:31:58.429326 IP comp3134.38787 > 67.207.67.2.domain: 6454+ [1au] PTR? 
+2.67.207.67.in-addr.arpa. (53)
+20:31:58.429612 IP 67.207.67.2.domain > comp3134.43717: 10104 NXDomain 
+0/1/1 (120)
+20:31:58.429676 IP comp3134.43717 > 67.207.67.2.domain: 10104+ PTR? 
+2.67.207.67.in-addr.arpa. (42)
+20:31:58.429686 IP 67.207.67.2.domain > comp3134.38787: 6454 NXDomain 
+0/1/1 (120)
+20:31:58.429716 IP comp3134.38787 > 67.207.67.2.domain: 6454+ PTR? 
+2.67.207.67.in-addr.arpa. (42)
+20:31:58.429963 IP 67.207.67.2.domain > comp3134.43717: 10104 NXDomain 
+0/1/0 (109)
+20:31:58.429963 IP 67.207.67.2.domain > comp3134.38787: 6454 NXDomain 
+0/1/0 (109)
+20:32:00.267933 IP 205.185.121.3.50734 > comp3134.http-alt: Flags [S], seq 
+383743405, win 1025, options [mss 1400], length 0
+20:32:00.267969 IP comp3134.http-alt > 205.185.121.3.50734: Flags [R.], 
+seq 0, ack 383743406, win 0, length 0
+20:32:00.387329 IP 205.185.121.3.50734 > comp3134.http-alt: Flags [R], seq 
+383743406, win 1200, options [mss 1460], length 0
+20:32:00.683941 IP comp3134.ssh > 43.163.201.2.59446: Flags [P.], seq 
+1542938651:1542938703, ack 2104712100, win 503, options [nop,nop,TS val 
+471875824 ecr 1666564365], length 52
+20:32:00.854127 IP 43.163.201.2.59446 > comp3134.ssh: Flags [P.], seq 
+1:53, ack 52, win 262, options [nop,nop,TS val 1666568210 ecr 471875824], 
+length 52
+20:32:00.854128 IP 43.163.201.2.59446 > comp3134.ssh: Flags [F.], seq 53, 
+ack 52, win 262, options [nop,nop,TS val 1666568210 ecr 471875824], length 
+0
+20:32:00.854166 IP comp3134.ssh > 43.163.201.2.59446: Flags [.], ack 53, 
+win 503, options [nop,nop,TS val 471875994 ecr 1666568210], length 0
+20:32:00.856359 IP comp3134.ssh > 43.163.201.2.59446: Flags [F.], seq 52, 
+ack 54, win 503, options [nop,nop,TS val 471875996 ecr 1666568210], length 
+0
+20:32:01.022726 IP 43.163.201.2.59446 > comp3134.ssh: Flags [.], ack 53, 
+win 262, options [nop,nop,TS val 1666568378 ecr 471875996], length 0
+20:32:04.465548 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 1744:4640, ack 1, win 501, options [nop,nop,TS val 3854909271 ecr 
+2737002912], length 2896
+20:32:04.465674 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 4640:5604, ack 1, win 501, options [nop,nop,TS val 3854909271 ecr 
+2737002912], length 964
+20:32:04.465777 IP comp3134.60741 > 67.207.67.2.domain: 52381+ [1au] PTR? 
+3.121.185.205.in-addr.arpa. (55)
+20:32:04.465823 IP comp3134.55350 > 67.207.67.2.domain: 44649+ [1au] PTR? 
+3.121.185.205.in-addr.arpa. (55)
+20:32:04.465937 IP comp3134.46564 > 67.207.67.2.domain: Flags [S], seq 
+1175924432, win 64240, options [mss 1460,sackOK,TS val 2546747359 ecr 
+0,nop,wscale 7,exp-tfo cookiereq], length 0
+20:32:04.466613 IP 67.207.67.2.domain > comp3134.55350: 44649 NXDomain 
+0/1/1 (114)
+20:32:04.466676 IP comp3134.55350 > 67.207.67.2.domain: 44649+ PTR? 
+3.121.185.205.in-addr.arpa. (44)
+20:32:04.466944 IP 67.207.67.2.domain > comp3134.55350: 44649 NXDomain 
+0/1/0 (103)
+20:32:04.467203 IP 67.207.67.2.domain > comp3134.46564: Flags [S.], seq 
+552067199, ack 1175924433, win 65160, options [mss 1460,sackOK,TS val 
+2332560167 ecr 2546747359,nop,wscale 9], length 0
+20:32:04.467238 IP comp3134.46564 > 67.207.67.2.domain: Flags [.], ack 1, 
+win 502, options [nop,nop,TS val 2546747360 ecr 2332560167], length 0
+20:32:04.467279 IP comp3134.46564 > 67.207.67.2.domain: Flags [P.], seq 
+1:47, ack 1, win 502, options [nop,nop,TS val 2546747360 ecr 2332560167], 
+length 46 31550+ PTR? 3.121.185.205.in-addr.arpa. (44)
+20:32:04.467616 IP 67.207.67.2.domain > comp3134.46564: Flags [.], ack 47, 
+win 128, options [nop,nop,TS val 2332560168 ecr 2546747360], length 0
+20:32:04.488059 IP 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206 > 
+comp3134.ssh: Flags [.], ack 3192, win 2025, options [nop,nop,TS val 
+2737009022 ecr 3854909271], length 0
+20:32:04.488060 IP 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206 > 
+comp3134.ssh: Flags [.], ack 5604, win 2010, options [nop,nop,TS val 
+2737009022 ecr 3854909271], length 0
+20:32:04.528363 IP 67.207.67.2.domain > comp3134.60741: 52381 NXDomain 
+0/1/1 (114)
+20:32:04.528531 IP comp3134.60741 > 67.207.67.2.domain: 52381+ PTR? 
+3.121.185.205.in-addr.arpa. (44)
+20:32:04.528850 IP 67.207.67.2.domain > comp3134.60741: 52381 NXDomain 
+0/1/0 (103)
+20:32:04.529283 IP 67.207.67.2.domain > comp3134.46564: Flags [P.], seq 
+1:106, ack 47, win 128, options [nop,nop,TS val 2332560230 ecr 
+2546747360], length 105 31550 NXDomain 0/1/0 (103)
+20:32:04.529316 IP comp3134.46564 > 67.207.67.2.domain: Flags [.], ack 
+106, win 502, options [nop,nop,TS val 2546747422 ecr 2332560230], length 0
+20:32:04.529982 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 5604:6008, ack 1, win 501, options [nop,nop,TS val 3854909336 ecr 
+2737009022], length 404
+20:32:04.530186 IP comp3134.55157 > 67.207.67.2.domain: 26748+ [1au] PTR? 
+2.201.163.43.in-addr.arpa. (54)
+20:32:04.530235 IP comp3134.59202 > 67.207.67.2.domain: 13137+ [1au] PTR? 
+2.201.163.43.in-addr.arpa. (54)
+20:32:04.530285 IP comp3134.46564 > 67.207.67.2.domain: Flags [P.], seq 
+47:92, ack 106, win 502, options [nop,nop,TS val 2546747423 ecr 
+2332560230], length 45 55229+ PTR? 2.201.163.43.in-addr.arpa. (43)
+20:32:04.530552 IP 67.207.67.2.domain > comp3134.46564: Flags [.], ack 92, 
+win 128, options [nop,nop,TS val 2332560231 ecr 2546747423], length 0
+20:32:04.531378 IP 67.207.67.2.domain > comp3134.46564: Flags [P.], seq 
+106:239, ack 92, win 128, options [nop,nop,TS val 2332560232 ecr 
+2546747423], length 133 55229 NXDomain 0/1/0 (131)
+20:32:04.531581 IP 67.207.67.2.domain > comp3134.55157: 26748 NXDomain 
+0/1/1 (142)
+20:32:04.531670 IP comp3134.55157 > 67.207.67.2.domain: 26748+ PTR? 
+2.201.163.43.in-addr.arpa. (43)
+20:32:04.532019 IP 67.207.67.2.domain > comp3134.55157: 26748 NXDomain 
+0/1/0 (131)
+20:32:04.532181 IP 67.207.67.2.domain > comp3134.59202: 13137 NXDomain 
+0/1/1 (142)
+20:32:04.532223 IP comp3134.59202 > 67.207.67.2.domain: 13137+ PTR? 
+2.201.163.43.in-addr.arpa. (43)
+20:32:04.532618 IP 67.207.67.2.domain > comp3134.59202: 13137 NXDomain 
+0/1/0 (131)
+20:32:04.533110 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 6008:6972, ack 1, win 501, options [nop,nop,TS val 3854909339 ecr 
+2737009022], length 964
+20:32:04.546473 IP 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206 > 
+comp3134.ssh: Flags [.], ack 6972, win 2032, options [nop,nop,TS val 
+2737009090 ecr 3854909339], length 0
+20:32:04.565549 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 6972:9868, ack 1, win 501, options [nop,nop,TS val 3854909371 ecr 
+2737009090], length 2896
+20:32:04.565588 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 9868:11104, ack 1, win 501, options [nop,nop,TS val 3854909371 ecr 
+2737009090], length 1236
+20:32:04.565738 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 11104:11684, ack 1, win 501, options [nop,nop,TS val 3854909372 ecr 
+2737009090], length 580
+20:32:04.572773 IP comp3134.46564 > 67.207.67.2.domain: Flags [.], ack 
+239, win 501, options [nop,nop,TS val 2546747466 ecr 2332560232], length 0
+20:32:04.578008 IP 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206 > 
+comp3134.ssh: Flags [.], ack 11684, win 2048, options [nop,nop,TS val 
+2737009122 ecr 3854909372], length 0
+20:32:04.668962 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 11684:11928, ack 1, win 501, options [nop,nop,TS val 3854909475 ecr 
+2737009122], length 244
+20:32:04.669042 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 11928:12208, ack 1, win 501, options [nop,nop,TS val 3854909475 ecr 
+2737009122], length 280
+20:32:04.669084 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 12208:12244, ack 1, win 501, options [nop,nop,TS val 3854909475 ecr 
+2737009122], length 36
+20:32:04.669122 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 12244:12488, ack 1, win 501, options [nop,nop,TS val 3854909475 ecr 
+2737009122], length 244
+20:32:04.669169 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 12488:12524, ack 1, win 501, options [nop,nop,TS val 3854909475 ecr 
+2737009122], length 36
+20:32:04.669213 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 12524:12704, ack 1, win 501, options [nop,nop,TS val 3854909475 ecr 
+2737009122], length 180
+20:32:04.669306 IP comp3134.ssh > 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], 
+seq 12704:13004, ack 1, win 501, options [nop,nop,TS val 3854909475 ecr 
+2737009122], length 300
+20:32:04.682318 IP 
+cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206 > 
+comp3134.ssh: Flags [.], ack 12208, win 2039, options [nop,nop,TS val 
+2737009226 ecr 3854909475], length 0

@@ -1,0 +1,170 @@
+root@comp3134:~# nmap google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-05 18:04 UTC
+Nmap scan report for google.com (142.251.41.78)
+Host is up (0.0014s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:807::200e
+rDNS record for 142.251.41.78: yyz10s20-in-f14.1e100.net
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.03 seconds
+root@comp3134:~# nmap -p 80 google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-05 18:05 UTC
+Nmap scan report for google.com (142.251.41.78)
+Host is up (0.0014s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:807::200e
+rDNS record for 142.251.41.78: yyz10s20-in-f14.1e100.net
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.11 seconds
+root@comp3134:~# nmap -p 80-90000 google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-05 18:08 UTC
+Ports specified must be between 0 and 65535 inclusive
+QUITTING!
+root@comp3134:~# nmap -p 80-65533 google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-05 18:08 UTC
+
+root@comp3134:~# nmap -p 80-8900 google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-05 18:10 UTC
+
+root@comp3134:~# nmap -p 0-80 google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-05 18:10 UTC
+Nmap scan report for google.com (142.251.32.78)
+Host is up (0.0015s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:804::200e
+rDNS record for 142.251.32.78: yyz12s07-in-f14.1e100.net
+Not shown: 80 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 1.71 seconds
+root@comp3134:~# nmap -f google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-05 18:12 UTC
+Nmap scan report for google.com (142.251.32.78)
+Host is up (0.0018s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:804::200e
+rDNS record for 142.251.32.78: yyz12s07-in-f14.1e100.net
+All 1000 scanned ports on google.com (142.251.32.78) are in ignored 
+states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap done: 1 IP address (1 host up) scanned in 21.16 seconds
+root@comp3134:~# man iptables
+root@comp3134:~# man iptables
+
+IPTABLES(8)                     iptables 1.8.9                     
+IPTABLES(8)
+
+NAME
+       iptables/ip6tables — administration tool for IPv4/IPv6 packet 
+filtering
+       and NAT
+
+SYNOPSIS
+       iptables [-t table] {-A|-C|-D|‐V} chain rule‐specification
+
+       ip6tables [-t table] {-A|-C|-D|‐V} chain rule‐specification
+
+       iptables [-t table] -I chain [rulenum] rule‐specification
+
+       iptables [-t table] -R chain rulenum rule‐specification
+
+       iptables [-t table] -D chain rulenum
+
+       iptables [-t table] -S [chain [rulenum]]
+
+       iptables [-t table] {-F|-L|-Z} [chain [rulenum]] [options...]
+
+       iptables [-t table] -N chain
+
+       iptables [-t table] -X [chain]
+
+       iptables [-t table] -P chain target
+
+       iptables [-t table] -E old‐chain‐name new‐chain‐name
+
+       rule‐specification = [matches...] [target]
+
+       match = -m matchname [per‐match‐options]
+
+       target = -j targetname [per-target-options]
+
+DESCRIPTION
+       Iptables  and  ip6tables  are used to set up, maintain, and inspect 
+the
+       tables of IPv4 and IPv6 packet filter rules in the Linux kernel.   
+Sev‐
+       eral  different tables may be defined.  Each table contains a 
+number of
+       built‐in chains and may also contain user‐defined chains.
+
+       Each chain is a list of rules which can match a set of  packets.   
+Each
+       rule specifies what to do with a packet that matches.  This is 
+called a
+       ‘target’,  which  may be a jump to a user‐defined chain in the same 
+ta‐
+       ble.
+
+TARGETS
+       A firewall rule specifies criteria for a packet and a target.   If  
+the
+       packet  does  not  match, the next rule in the chain is examined; 
+if it
+       does match, then the next rule is specified by the value of the 
+target,
+       which can be the name of a user‐defined chain, one of the  targets  
+de‐
+       scribed in iptables-extensions(8), or one of the special values 
+ACCEPT,
+       DROP or RETURN.
+
+       ACCEPT  means to let the packet through.  DROP means to drop the 
+packet
+       on the floor.  RETURN means stop traversing this chain  and  resume  
+at
+       the  next rule in the previous (calling) chain.  If the end of a 
+built‐
+       in chain is reached or a rule in a built‐in chain with target 
+RETURN is
+       matched, the target specified by the chain policy determines  the  
+fate
+       of the packet.
+
+TABLES
+       There  are  currently five independent tables (which tables are 
+present
+       at any time depends on the kernel configuration options and which  
+mod‐
+       ules are present).
+
+       -t, --table table
+              This  option  specifies the packet matching table which the 
+com‐
+              mand should operate on.  If the kernel is configured with  
+auto‐
+              matic module loading, an attempt will be made to load the 
+appro‐
+              priate module for that table if it is not already there.
+
+              The tables are as follows:
+
+              filter:
+ Manual page iptables(8) line 1 (press h for help or q to quit)
+---------------------------------------------------------------------------
+
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               
+destination         
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               
+destination         
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               
+destination    

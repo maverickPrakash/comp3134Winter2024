@@ -1,0 +1,11 @@
+tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:37:58.567271 IP comp3134.ssh > cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], seq 1927472708:1927472816, ack 1628966793, win 501, options [nop,nop,TS val 3855263373 ecr 2737363109], length 108
+20:37:58.567354 IP comp3134.ssh > cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], seq 108:264, ack 1, win 501, options [nop,nop,TS val 3855263373 ecr 2737363109], length 156
+20:37:58.567403 IP comp3134.ssh > cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], seq 264:332, ack 1, win 501, options [nop,nop,TS val 3855263373 ecr 2737363109], length 68
+20:37:58.567447 IP comp3134.ssh > cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], seq 332:368, ack 1, win 501, options [nop,nop,TS val 3855263373 ecr 2737363109], length 36
+20:37:58.586662 IP cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206 > comp3134.ssh: Flags [.], ack 368, win 2042, options [nop,nop,TS val 2737363125 ecr 3855263373], length 0
+5 packets captured
+30 packets received by filter
+0 packets dropped by kernel

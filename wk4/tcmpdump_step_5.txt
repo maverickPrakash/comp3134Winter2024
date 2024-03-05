@@ -1,0 +1,72 @@
+ tcpdump -XX -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:40:47.370786 IP cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206 > comp3134.ssh: Flags [.], ack 1958442864, win 23970, options [nop,nop,TS val 2737531912 ecr 3855432163], length 0
+	0x0000:  62d8 6410 d282 fe00 0000 0101 0800 4500  b.d...........E.
+	0x0010:  0034 0000 4000 3906 0461 63e6 2ab1 867a  .4..@.9..ac.*..z
+	0x0020:  2852 db8e 0016 6118 52b9 74bb 7770 8010  (R....a.R.t.wp..
+	0x0030:  5da2 3130 0000 0101 080a a32b 6c08 e5cd  ].10.......+l...
+	0x0040:  39e3                                     9.
+20:40:47.371043 IP comp3134.ssh > cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], seq 1:109, ack 0, win 501, options [nop,nop,TS val 3855432177 ecr 2737531912], length 108
+	0x0000:  fe00 0000 0101 62d8 6410 d282 0800 4510  ......b.d.....E.
+	0x0010:  00a0 80d3 4000 4006 7c11 867a 2852 63e6  ....@.@.|..z(Rc.
+	0x0020:  2ab1 0016 db8e 74bb 7770 6118 52b9 8018  *.....t.wpa.R...
+	0x0030:  01f5 3df6 0000 0101 080a e5cd 39f1 a32b  ..=.........9..+
+	0x0040:  6c08 e1b7 3f15 05cb 5712 0e37 745b ca22  l...?...W..7t[."
+	0x0050:  5a97 51db 5651 1653 9bd0 390b 48d7 b1e5  Z.Q.VQ.S..9.H...
+	0x0060:  1ffc 6754 fd6b 13f7 6851 85cd 29e0 f9a1  ..gT.k..hQ..)...
+	0x0070:  f471 1359 e293 8c2f 43d2 8d21 9b58 83c3  .q.Y.../C..!.X..
+	0x0080:  7bf1 1352 bd84 2097 c596 7e75 dd8e b869  {..R......~u...i
+	0x0090:  0192 865d 7170 b25d 7639 680e f71a 1f3a  ...]qp.]v9h....:
+	0x00a0:  9286 b9be d992 6b7c 6fe3 4cfb 1d2e       ......k|o.L...
+20:40:47.371131 IP comp3134.ssh > cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], seq 109:197, ack 0, win 501, options [nop,nop,TS val 3855432177 ecr 2737531912], length 88
+	0x0000:  fe00 0000 0101 62d8 6410 d282 0800 4510  ......b.d.....E.
+	0x0010:  008c 80d4 4000 4006 7c24 867a 2852 63e6  ....@.@.|$.z(Rc.
+	0x0020:  2ab1 0016 db8e 74bb 77dc 6118 52b9 8018  *.....t.w.a.R...
+	0x0030:  01f5 3de2 0000 0101 080a e5cd 39f1 a32b  ..=.........9..+
+	0x0040:  6c08 e4d2 9fcb f12e 1cc4 7601 0fca 8dda  l.........v.....
+	0x0050:  5846 96bc d8d7 9e55 3fd8 f910 c89f 0553  XF.....U?......S
+	0x0060:  890a 1a4e cf63 eb3f d78c a735 1a55 0d3c  ...N.c.?...5.U.<
+	0x0070:  9be7 9368 f73f 8e21 53c3 53b7 8f43 486b  ...h.?.!S.S..CHk
+	0x0080:  6294 7ca5 4a56 63a8 a32c c5a7 6e50 a6b0  b.|.JVc..,..nP..
+	0x0090:  cafa 3213 a5cd a052 addb                 ..2....R..
+20:40:47.371169 IP comp3134.ssh > cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], seq 197:333, ack 0, win 501, options [nop,nop,TS val 3855432177 ecr 2737531912], length 136
+	0x0000:  fe00 0000 0101 62d8 6410 d282 0800 4510  ......b.d.....E.
+	0x0010:  00bc 80d5 4000 4006 7bf3 867a 2852 63e6  ....@.@.{..z(Rc.
+	0x0020:  2ab1 0016 db8e 74bb 7834 6118 52b9 8018  *.....t.x4a.R...
+	0x0030:  01f5 3e12 0000 0101 080a e5cd 39f1 a32b  ..>.........9..+
+	0x0040:  6c08 bafd e90b f0d1 479a 9189 68c6 5759  l.......G...h.WY
+	0x0050:  c395 44fc 4a5c edbe bf32 39fe c60c 3d72  ..D.J\...29...=r
+	0x0060:  e92b 6dfa 66ba cd5e 5381 5a9c d49a 2d02  .+m.f..^S.Z...-.
+	0x0070:  b843 a2a3 3d33 1b29 9b92 e333 efb5 40cc  .C..=3.)...3..@.
+	0x0080:  a1c3 c4ad 541e 6374 eaa7 0373 3afa 3ec7  ....T.ct...s:.>.
+	0x0090:  4314 3417 12f8 d07c 2f14 b1a0 f139 24ed  C.4....|/....9$.
+	0x00a0:  80f4 baa3 713c 1567 ce18 69a9 91eb 0c29  ....q<.g..i....)
+	0x00b0:  4995 f1b7 64b1 4bd2 a7c2 3297 0e9f 9e72  I...d.K...2....r
+	0x00c0:  1a25 02c5 db73 75ca 8b32                 .%...su..2
+20:40:47.371255 IP comp3134.ssh > cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206: Flags [P.], seq 333:369, ack 0, win 501, options [nop,nop,TS val 3855432177 ecr 2737531912], length 36
+	0x0000:  fe00 0000 0101 62d8 6410 d282 0800 4510  ......b.d.....E.
+	0x0010:  0058 80d6 4000 4006 7c56 867a 2852 63e6  .X..@.@.|V.z(Rc.
+	0x0020:  2ab1 0016 db8e 74bb 78bc 6118 52b9 8018  *.....t.x.a.R...
+	0x0030:  01f5 3dae 0000 0101 080a e5cd 39f1 a32b  ..=.........9..+
+	0x0040:  6c08 13ab b240 a919 df05 d329 d1a4 44ca  l....@.....)..D.
+	0x0050:  2949 0ae1 85dc d144 f8e7 7162 e9e4 812a  )I.....D..qb...*
+	0x0060:  a73c 79a3 f711                           .<y...
+20:40:47.386905 IP cpe9050ca215783-cm9050ca215780.cpe.net.cable.rogers.com.56206 > comp3134.ssh: Flags [.], ack 369, win 23965, options [nop,nop,TS val 2737531929 ecr 3855432177], length 0
+	0x0000:  62d8 6410 d282 fe00 0000 0101 0800 4500  b.d...........E.
+	0x0010:  0034 0000 4000 3906 0461 63e6 2ab1 867a  .4..@.9..ac.*..z
+	0x0020:  2852 db8e 0016 6118 52b9 74bb 78e0 8010  (R....a.R.t.x...
+	0x0030:  5d9d 2fa6 0000 0101 080a a32b 6c19 e5cd  ]./........+l...
+	0x0040:  39f1                                     9.
+20:40:47.461424 IP comp3134.41675 > 67.207.67.2.domain: 60456+ [1au] PTR? 82.40.122.134.in-addr.arpa. (55)
+	0x0000:  fe00 0000 0101 62d8 6410 d282 0800 4500  ......b.d.....E.
+	0x0010:  0053 599b 0000 4011 eb61 867a 2852 43cf  .SY...@..a.z(RC.
+	0x0020:  4302 a2cb 0035 003f 35ee ec28 0100 0001  C....5.?5..(....
+	0x0030:  0000 0000 0001 0238 3202 3430 0331 3232  .......82.40.122
+	0x0040:  0331 3334 0769 6e2d 6164 6472 0461 7270  .134.in-addr.arp
+	0x0050:  6100 000c 0001 0000 2905 c000 0000 0000  a.......).......
+	0x0060:  00                                       .
+^C
+7 packets captured
+66 packets received by filter
+0 packets dropped by kernel

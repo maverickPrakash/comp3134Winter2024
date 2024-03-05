@@ -1,0 +1,94 @@
+root@comp3134:~# tcpdump -i eth0 port 22
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:48:00.631849 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 2505129238:2505129346, ack 561090010, win 501, options [nop,nop,TS val 1836123559 ecr 1566106805], length 108
+20:48:00.631953 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 108:196, ack 1, win 501, options [nop,nop,TS val 1836123559 ecr 1566106805], length 88
+20:48:00.632019 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 196:332, ack 1, win 501, options [nop,nop,TS val 1836123559 ecr 1566106805], length 136
+20:48:00.632056 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 332:368, ack 1, win 501, options [nop,nop,TS val 1836123559 ecr 1566106805], length 36
+20:48:00.644787 IP cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460 > comp3134.ssh: Flags [.], ack 0, win 5643, options [nop,nop,TS val 1566106838 ecr 1836123543], length 0
+20:48:00.650741 IP cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460 > comp3134.ssh: Flags [.], ack 368, win 5639, options [nop,nop,TS val 1566106840 ecr 1836123559], length 0
+20:48:00.723760 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 368:620, ack 1, win 501, options [nop,nop,TS val 1836123651 ecr 1566106840], length 252
+20:48:00.723824 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 620:656, ack 1, win 501, options [nop,nop,TS val 1836123651 ecr 1566106840], length 36
+20:48:00.723885 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 656:884, ack 1, win 501, options [nop,nop,TS val 1836123651 ecr 1566106840], length 228
+20:48:00.723918 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 884:920, ack 1, win 501, options [nop,nop,TS val 1836123651 ecr 1566106840], length 36
+20:48:00.723975 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 920:1148, ack 1, win 501, options [nop,nop,TS val 1836123651 ecr 1566106840], length 228
+20:48:00.724038 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 1148:1412, ack 1, win 501, options [nop,nop,TS val 1836123651 ecr 1566106840], length 264
+20:48:00.724065 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 1412:1448, ack 1, win 501, options [nop,nop,TS val 1836123651 ecr 1566106840], length 36
+20:48:00.724103 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 1448:1660, ack 1, win 501, options [nop,nop,TS val 1836123651 ecr 1566106840], length 212
+20:48:00.724137 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 1660:1696, ack 1, win 501, options [nop,nop,TS val 1836123651 ecr 1566106840], length 36
+20:48:00.724175 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 1696:1908, ack 1, win 501, options [nop,nop,TS val 1836123651 ecr 1566106840], length 212
+20:48:00.741815 IP cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460 > comp3134.ssh: Flags [.], ack 1908, win 5621, options [nop,nop,TS val 1566106932 ecr 1836123651], length 0
+20:48:00.741862 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 1908:1944, ack 1, win 501, options [nop,nop,TS val 1836123669 ecr 1566106932], length 36
+20:48:00.760747 IP cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460 > comp3134.ssh: Flags [.], ack 1944, win 5644, options [nop,nop,TS val 1566106953 ecr 1836123669], length 0
+20:48:00.824950 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 1944:2172, ack 1, win 501, options [nop,nop,TS val 1836123752 ecr 1566106953], length 228
+20:48:00.825059 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 2172:2208, ack 1, win 501, options [nop,nop,TS val 1836123752 ecr 1566106953], length 36
+20:48:00.825083 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 2208:2436, ack 1, win 501, options [nop,nop,TS val 1836123752 ecr 1566106953], length 228
+20:48:00.825124 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 2436:2472, ack 1, win 501, options [nop,nop,TS val 1836123752 ecr 1566106953], length 36
+20:48:00.825173 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 2472:2700, ack 1, win 501, options [nop,nop,TS val 1836123752 ecr 1566106953], length 228
+20:48:00.825206 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 2700:2736, ack 1, win 501, options [nop,nop,TS val 1836123752 ecr 1566106953], length 36
+20:48:00.825248 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 2736:2964, ack 1, win 501, options [nop,nop,TS val 1836123752 ecr 1566106953], length 228
+20:48:00.825284 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 2964:3000, ack 1, win 501, options [nop,nop,TS val 1836123752 ecr 1566106953], length 36
+20:48:00.825317 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 3000:3228, ack 1, win 501, options [nop,nop,TS val 1836123752 ecr 1566106953], length 228
+20:48:00.825348 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 3228:3264, ack 1, win 501, options [nop,nop,TS val 1836123752 ecr 1566106953], length 36
+20:48:00.825386 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 3264:3492, ack 1, win 501, options [nop,nop,TS val 1836123752 ecr 1566106953], length 228
+20:48:00.825417 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 3492:3528, ack 1, win 501, options [nop,nop,TS val 1836123752 ecr 1566106953], length 36
+20:48:00.825453 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 3528:3756, ack 1, win 501, options [nop,nop,TS val 1836123752 ecr 1566106953], length 228
+20:48:00.825485 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 3756:3792, ack 1, win 501, options [nop,nop,TS val 1836123752 ecr 1566106953], length 36
+20:48:00.825534 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 3792:4020, ack 1, win 501, options [nop,nop,TS val 1836123752 ecr 1566106953], length 228
+20:48:00.825567 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 4020:4056, ack 1, win 501, options [nop,nop,TS val 1836123752 ecr 1566106953], length 36
+20:48:00.825604 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 4056:4284, ack 1, win 501, options [nop,nop,TS val 1836123752 ecr 1566106953], length 228
+20:48:00.825645 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 4284:4320, ack 1, win 501, options [nop,nop,TS val 1836123752 ecr 1566106953], length 36
+20:48:00.825690 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 4320:4548, ack 1, win 501, options [nop,nop,TS val 1836123752 ecr 1566106953], length 228
+20:48:00.825721 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 4548:4584, ack 1, win 501, options [nop,nop,TS val 1836123753 ecr 1566106953], length 36
+20:48:00.842960 IP cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460 > comp3134.ssh: Flags [.], ack 4584, win 5604, options [nop,nop,TS val 1566107033 ecr 1836123753], length 0
+20:48:00.843012 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 4584:5360, ack 1, win 501, options [nop,nop,TS val 1836123770 ecr 1566107033], length 776
+20:48:00.854763 IP cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460 > comp3134.ssh: Flags [.], ack 5360, win 5633, options [nop,nop,TS val 1566107048 ecr 1836123770], length 0
+20:48:00.928965 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 5360:5588, ack 1, win 501, options [nop,nop,TS val 1836123856 ecr 1566107048], length 228
+20:48:00.929064 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 5588:5624, ack 1, win 501, options [nop,nop,TS val 1836123856 ecr 1566107048], length 36
+20:48:00.929094 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 5624:5852, ack 1, win 501, options [nop,nop,TS val 1836123856 ecr 1566107048], length 228
+20:48:00.929133 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 5852:5888, ack 1, win 501, options [nop,nop,TS val 1836123856 ecr 1566107048], length 36
+20:48:00.929194 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 5888:6116, ack 1, win 501, options [nop,nop,TS val 1836123856 ecr 1566107048], length 228
+20:48:00.929232 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 6116:6152, ack 1, win 501, options [nop,nop,TS val 1836123856 ecr 1566107048], length 36
+20:48:00.929290 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 6152:6380, ack 1, win 501, options [nop,nop,TS val 1836123856 ecr 1566107048], length 228
+20:48:00.929330 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 6380:6416, ack 1, win 501, options [nop,nop,TS val 1836123856 ecr 1566107048], length 36
+20:48:00.929379 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 6416:6644, ack 1, win 501, options [nop,nop,TS val 1836123856 ecr 1566107048], length 228
+20:48:00.929416 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 6644:6680, ack 1, win 501, options [nop,nop,TS val 1836123856 ecr 1566107048], length 36
+20:48:00.929449 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 6680:6908, ack 1, win 501, options [nop,nop,TS val 1836123856 ecr 1566107048], length 228
+20:48:00.929483 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 6908:6944, ack 1, win 501, options [nop,nop,TS val 1836123856 ecr 1566107048], length 36
+20:48:00.929522 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 6944:7172, ack 1, win 501, options [nop,nop,TS val 1836123856 ecr 1566107048], length 228
+20:48:00.929554 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 7172:7208, ack 1, win 501, options [nop,nop,TS val 1836123856 ecr 1566107048], length 36
+20:48:00.929603 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 7208:7436, ack 1, win 501, options [nop,nop,TS val 1836123856 ecr 1566107048], length 228
+20:48:00.929647 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 7436:7472, ack 1, win 501, options [nop,nop,TS val 1836123856 ecr 1566107048], length 36
+20:48:00.929697 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 7472:7700, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 228
+20:48:00.929730 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 7700:7736, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 36
+20:48:00.929768 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 7736:7964, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 228
+20:48:00.929802 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 7964:8000, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 36
+20:48:00.929834 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 8000:8228, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 228
+20:48:00.929868 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 8228:8264, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 36
+20:48:00.929900 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 8264:8492, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 228
+20:48:00.929939 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 8492:8528, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 36
+20:48:00.929970 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 8528:8756, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 228
+20:48:00.930004 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 8756:8792, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 36
+20:48:00.930035 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 8792:9020, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 228
+20:48:00.930072 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 9020:9056, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 36
+20:48:00.930132 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 9056:9284, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 228
+20:48:00.930176 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 9284:9320, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 36
+20:48:00.930217 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 9320:9548, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 228
+20:48:00.930254 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 9548:9584, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 36
+20:48:00.930303 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 9584:9812, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 228
+20:48:00.930341 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 9812:9848, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 36
+20:48:00.930372 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 9848:10076, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 228
+20:48:00.930405 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 10076:10112, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 36
+20:48:00.930474 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 10112:10340, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 228
+20:48:00.930515 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 10340:10376, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 36
+20:48:00.930563 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 10376:10604, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 228
+20:48:00.930602 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 10604:10640, ack 1, win 501, options [nop,nop,TS val 1836123857 ecr 1566107048], length 36
+20:48:00.974957 IP cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460 > comp3134.ssh: Flags [.], ack 8528, win 5595, options [nop,nop,TS val 1566107167 ecr 1836123857], length 0
+20:48:00.974958 IP cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460 > comp3134.ssh: Flags [.], ack 8528, win 5645, options [nop,nop,TS val 1566107167 ecr 1836123857], length 0
+20:48:00.974958 IP cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460 > comp3134.ssh: Flags [.], ack 10640, win 5612, options [nop,nop,TS val 1566107167 ecr 1836123857], length 0
+20:48:00.975011 IP comp3134.ssh > cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460: Flags [P.], seq 10640:11416, ack 1, win 501, options [nop,nop,TS val 1836123902 ecr 1566107167], length 776
+20:48:00.988781 IP cpef81d0f8aea73-cmf81d0f8aea70.cpe.net.fido.ca.57460 > comp3134.ssh: Flags [.], ack 11416, win 5633, options [nop,nop,TS val 1566107182 ecr 1836123902], length 0
+^C
+87 packets captured
+177 packets received by filter
+0 packets dropped by kernel
