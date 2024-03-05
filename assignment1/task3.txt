@@ -1,0 +1,8 @@
+Verify that the server can communicate with another computer or network (1 
+mark)
+a. Output the result
+
+Yes google communicate with another computer or network
+ping google.com
+PING google.com (142.251.41.46): 56 data bytes
+64 bytes from 142.251.41.46: icmp_seq=0 ttl=119 time=11.384 ms

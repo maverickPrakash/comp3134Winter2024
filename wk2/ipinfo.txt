@@ -1,0 +1,59 @@
+----------------------------------------------------------------------------
+nslookup google.com
+Server:		2607:f798:18:10:0:640:7125:5204
+Address:	2607:f798:18:10:0:640:7125:5204#53
+
+Non-authoritative answer:
+Name:	google.com
+Address: 172.217.1.14
+
+----------------------------------------------------------------------------
+nslookup apple.com 
+Server:		2607:f798:18:10:0:640:7125:5204
+Address:	2607:f798:18:10:0:640:7125:5204#53
+
+Non-authoritative answer:
+Name:	apple.com
+Address: 17.253.144.10
+
+----------------------------------------------------------------------------
+ nslookup facebook.com
+Server:		2607:f798:18:10:0:640:7125:5204
+Address:	2607:f798:18:10:0:640:7125:5204#53
+
+Non-authoritative answer:
+Name:	facebook.com
+Address: 31.13.80.36
+
+
+----------------------------------------------------------------------------
+
+ nslookup netflix.com 
+Server:		2607:f798:18:10:0:640:7125:5204
+Address:	2607:f798:18:10:0:640:7125:5204#53
+
+Non-authoritative answer:
+Name:	netflix.com
+Address: 3.211.157.115
+Name:	netflix.com
+Address: 54.160.93.182
+Name:	netflix.com
+Address: 3.225.92.8
+
+
+----------------------------------------------------------------------------
+
+ nslookup amazon.com 
+Server:		2607:f798:18:10:0:640:7125:5204
+Address:	2607:f798:18:10:0:640:7125:5204#53
+
+Non-authoritative answer:
+Name:	amazon.com
+Address: 54.239.28.85
+Name:	amazon.com
+Address: 205.251.242.103
+Name:	amazon.com
+Address: 52.94.236.248
+
+
+----------------------------------------------------------------------------

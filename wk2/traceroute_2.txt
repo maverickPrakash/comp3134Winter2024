@@ -1,0 +1,12 @@
+traceroute 134.122.40.82
+traceroute to 134.122.40.82 (134.122.40.82), 64 hops max, 52 byte packets
+ 1  10.0.0.1 (10.0.0.1)  5.395 ms  3.278 ms  3.867 ms
+ 2  99.230.40.1 (99.230.40.1)  15.483 ms  12.406 ms  13.260 ms
+ 3  69.63.254.149 (69.63.254.149)  14.888 ms  19.312 ms  18.213 ms
+ 4  unallocated-static.rogers.com (72.139.139.138)  12.322 ms
+    unallocated-static.rogers.com (72.139.139.158)  13.062 ms
+    unallocated-static.rogers.com (72.139.139.130)  11.509 ms
+ 5  209.148.235.214 (209.148.235.214)  19.475 ms  12.577 ms  28.188 ms
+ 6  digitalocean-tor1-edge2.ip4.torontointernetxchange.net (206.108.35.15)  14.802 ms  23.119 ms  14.611 ms
+ 7  * * *
+ 8  134.122.40.82 (134.122.40.82)  23.317 ms  21.518 ms  14.719 ms

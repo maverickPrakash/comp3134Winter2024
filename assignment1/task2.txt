@@ -1,0 +1,5 @@
+The host and the domain of the google.com is :
+host : 142.251.41.46
+Domain : google.com
+
+we can get the host using whois google.com

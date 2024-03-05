@@ -1,0 +1,51 @@
+Nmap scan report for google.com (142.251.41.78)
+Host is up (0.0014s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:807::200e
+rDNS record for 142.251.41.78: yyz10s20-in-f14.1e100.net
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.03 seconds
+
+
+---------------------------------------------------------------------------------
+ nmap -p 80 google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-05 18:05 UTC
+Nmap scan report for google.com (142.251.41.78)
+Host is up (0.0014s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:807::200e
+rDNS record for 142.251.41.78: yyz10s20-in-f14.1e100.net
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.11 seconds
+
+---------------------------------------------------------------------------------
+nmap -p 0-80 google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-05 18:10 UTC
+Nmap scan report for google.com (142.251.32.78)
+Host is up (0.0015s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:804::200e
+rDNS record for 142.251.32.78: yyz12s07-in-f14.1e100.net
+Not shown: 80 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 1.71 seconds
+
+
+---------------------------------------------------------------------------------
+
+nmap -f google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-05 18:12 UTC
+Nmap scan report for google.com (142.251.32.78)
+Host is up (0.0018s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:804::200e
+rDNS record for 142.251.32.78: yyz12s07-in-f14.1e100.net
+All 1000 scanned ports on google.com (142.251.32.78) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap done: 1 IP address (1 host up) scanned in 21.16 seconds
