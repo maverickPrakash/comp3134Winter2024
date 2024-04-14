@@ -1,0 +1,9 @@
+Array
+(
+    [0] => .
+    [1] => ..
+    [2] => html
+)
+
+
+It shows the file structure(directory). As in how is the folder laid out and what all exists. This makes it easier for the hacker to find the files and then do an attack on one of them(vulnerable) one.

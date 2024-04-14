@@ -1,0 +1,1 @@
+Strip tags is a function in PHP which is used to remove HTML tags. Whereas HTML Entities(htmlspecialchars) converts the special character to a string 

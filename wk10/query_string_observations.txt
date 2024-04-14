@@ -1,0 +1,14 @@
+1 - 
+link - https://www.dictionary.com/browse/racing
+It dispalys what the word means and give the example fo how the word can be used.
+
+2 -
+link - https://www.dictionary.com/misspelling?term=fdsafg
+After searching a not valid english word it doesnt give any result as the word is not found in the dictionary
+
+3 - 
+link - https://www.dictionary.com/%3Cscript%3Ealert(%27hello%27)%3C/script%3E
+It doesnt give any result if we paste the code like this . But if search the word `Hello` it does give a result on that . Result is the meaning and how the word can be used
+
+4- https://www.dictionary.com/noresult?term=%3Cscript%3Ealert(%27hello%27)%3C%2Fscript%3E
+It doesnt give any result like this as it cant read the script code

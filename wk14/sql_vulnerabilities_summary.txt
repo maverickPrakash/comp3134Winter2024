@@ -1,0 +1,8 @@
+1 - When word Ben is typed(searched) in the form. It just shows the name appear in the url link as `http://159.203.12.21/wk14/getusers_1.php?firstname=Ben` 
+It doesnt display any result.
+
+2 - When word(phrase) Ben’-- is typed(searched) in the form .It appeas in the url link as `http://159.203.12.21/wk14/getusers_1.php?firstname=Ben%E2%80%99--`. 
+Whereas in this one it gives an error due to the special characters used
+
+3 - When word(phrase_ Ben’ or 1=1 is typed(searched) in the form . But when it appears in the url link it appears in the form of UNICODE `http://159.203.12.21/wk14/getusers_1.php?firstname=Ben%E2%80%99+or+1%3D1`
+Whereas in this one it gives an error due to the special characters used

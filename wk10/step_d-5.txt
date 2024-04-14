@@ -1,0 +1,8 @@
+Array
+(
+    [0] => .
+    [1] => ..
+    [2] => directory_traversal_part1.php
+)
+
+It shows the file(files) exisiting in the directory. Which makes it easier for the attacker(hacker) to find the one and do the attack.

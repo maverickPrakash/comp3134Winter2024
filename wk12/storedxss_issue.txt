@@ -1,0 +1,1 @@
+As per the code I have used. Its only showing the file size and not the content of the file mention

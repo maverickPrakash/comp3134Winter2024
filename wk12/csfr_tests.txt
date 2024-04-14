@@ -1,0 +1,4 @@
+This is the output of using the PHP code. The values are 'satisfaction' so it results in equal value. 
+The session variable and POST value are equal. 
+
+Using the html code. It takes you back to the form with the username and password form.
