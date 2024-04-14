@@ -1,0 +1,72 @@
+
+
+
+Domain :www.amazon.ca
+
+Name : dropdown-selection
+Value : opjmtqpnkikq
+Method : GET
+
+
+Name : ropdown-selection-ub
+Value : opjmtqpnkikq
+Method : GET
+
+Name : glow-validation-token
+Value : hPPKtfRoc4zOg3dgLe85U8w96jyMfJ2FdHuzFmmJXcT/AAAAAGX90OEAAAAB
+Method : GET
+
+Name : glow-destination-type
+Value : DEFAULT_ADDRESS
+Method : GET
+
+
+<input data-addnewaddress="add-new" id="unifiedLocation1ClickAddress" name="dropdown-selection" type="hidden" value="opjmtqpnkikq" class="nav-progressive-attribute" />
+        
+<input data-addnewaddress="add-new" id="ubbShipTo" name="dropdown-selection-ubb" type="hidden" value="opjmtqpnkikq" class="nav-progressive-attribute"/>
+        
+<input id="glowValidationToken" name="glow-validation-token" type="hidden" value="hPPKtfRoc4zOg3dgLe85U8w96jyMfJ2FdHuzFmmJXcT/AAAAAGX90OEAAAAB" class="nav-progressive-attribute"/>
+       
+ <input id="glowDestinationType" name="glow-destination-type" type="hidden" value="DEFAULT_ADDRESS" class="nav-progressive-attribute"/>
+
+
+
+Domain : https://stackoverflow.com/questions/66892182/is-there-a-way-to-retrieve-hidden-input-values-on-another-page                            
+
+Name : qualityBanWarningShown
+Value : false
+Method : POST 
+
+Name : referrer 
+Value : ""
+Method : POST 
+
+Name : AIPolicyNoticeShown 
+Value : true
+Method : GET 
+
+Name : fkey 
+Value : 016376c4b904d27658b2fe3862ad6afd38eb435c55132ca7cca8b7e1094f3002
+Method : GET 
+
+
+<form id="post-form" action="/questions/66892182/answer/submit" method="post" class="js-add-answer-component post-form">
+                                <input type="hidden" id="post-id" value="66892182" />
+                                <input type="hidden" id="qualityBanWarningShown" name="qualityBanWarningShown" value="false" />
+                                <input type="hidden" name="referrer" value="" />
+</form>
+
+<input type="hidden" name="AIPolicyNoticeShown" value="true"/>
+
+            <input id="fkey" name="fkey" type="hidden" value="016376c4b904d27658b2fe3862ad6afd38eb435c55132ca7cca8b7e1094f3002">
+
+
+
+
+Domain : https://www.youtube.com
+
+Name : search_query
+Value: empty
+Method: GET
+
+<input id="search" autocapitalize="none" autocomplete="off" autocorrect="off" hidden name="search_query" tabindex="0" type="text" spellcheck="false">

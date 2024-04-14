@@ -1,0 +1,89 @@
+
+
+------------------------------Command------------------------------
+
+
+sudo tcpdump -i eth0 tcp  -c 10 -nn -vvv
+
+------------------------------Data---------------------------------
+
+Source Host: 10.20.0.5
+Source Port: 22
+
+------------------------------Output---------------------------------------
+sudo tcpdump -i eth0 tcp  -c 10 -nn -vvv
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+17:56:52.723731 IP (tos 0x12,ECT(0), ttl 64, id 25174, offset 0, flags [DF], proto TCP (6), length 96)
+    10.20.0.5.22 > 198.96.85.21.36035: Flags [P.], cksum 0x25e1 (incorrect -> 0xfe0b), seq 2997158181:2997158225, ack 376825744, win 501, options [nop,nop,TS val 3149013646 ecr 1455763472], length 44
+17:56:52.723823 IP (tos 0x12,ECT(0), ttl 64, id 25175, offset 0, flags [DF], proto TCP (6), length 104)
+    10.20.0.5.22 > 198.96.85.21.36035: Flags [P.], cksum 0x25e9 (incorrect -> 0x416a), seq 44:96, ack 1, win 501, options [nop,nop,TS val 3149013646 ecr 1455763472], length 52
+17:56:52.723884 IP (tos 0x12,ECT(0), ttl 64, id 25176, offset 0, flags [DF], proto TCP (6), length 120)
+    10.20.0.5.22 > 198.96.85.21.36035: Flags [P.], cksum 0x25f9 (incorrect -> 0x2584), seq 96:164, ack 1, win 501, options [nop,nop,TS val 3149013646 ecr 1455763472], length 68
+17:56:52.723944 IP (tos 0x12,ECT(0), ttl 64, id 25177, offset 0, flags [DF], proto TCP (6), length 120)
+    10.20.0.5.22 > 198.96.85.21.36035: Flags [P.], cksum 0x25f9 (incorrect -> 0x896b), seq 164:232, ack 1, win 501, options [nop,nop,TS val 3149013646 ecr 1455763472], length 68
+17:56:52.723997 IP (tos 0x12,ECT(0), ttl 64, id 25178, offset 0, flags [DF], proto TCP (6), length 88)
+    10.20.0.5.22 > 198.96.85.21.36035: Flags [P.], cksum 0x25d9 (incorrect -> 0xc8c4), seq 232:268, ack 1, win 501, options [nop,nop,TS val 3149013646 ecr 1455763472], length 36
+17:56:52.728204 IP (tos 0x48, ttl 57, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    198.96.85.21.36035 > 10.20.0.5.22: Flags [.], cksum 0xa44b (correct), seq 1, ack 268, win 2043, options [nop,nop,TS val 1455763500 ecr 3149013646], length 0
+17:56:52.817951 IP (tos 0x12,ECT(0), ttl 64, id 25179, offset 0, flags [DF], proto TCP (6), length 192)
+    10.20.0.5.22 > 198.96.85.21.36035: Flags [P.], cksum 0x2641 (incorrect -> 0xe4d9), seq 268:408, ack 1, win 501, options [nop,nop,TS val 3149013740 ecr 1455763500], length 140
+17:56:52.818065 IP (tos 0x12,ECT(0), ttl 64, id 25180, offset 0, flags [DF], proto TCP (6), length 88)
+    10.20.0.5.22 > 198.96.85.21.36035: Flags [P.], cksum 0x25d9 (incorrect -> 0x456b), seq 408:444, ack 1, win 501, options [nop,nop,TS val 3149013740 ecr 1455763500], length 36
+17:56:52.818330 IP (tos 0x12,ECT(0), ttl 64, id 25181, offset 0, flags [DF], proto TCP (6), length 288)
+    10.20.0.5.22 > 198.96.85.21.36035: Flags [P.], cksum 0x26a1 (incorrect -> 0xa2ac), seq 444:680, ack 1, win 501, options [nop,nop,TS val 3149013740 ecr 1455763500], length 236
+17:56:52.818411 IP (tos 0x12,ECT(0), ttl 64, id 25182, offset 0, flags [DF], proto TCP (6), length 88)
+    10.20.0.5.22 > 198.96.85.21.36035: Flags [P.], cksum 0x25d9 (incorrect -> 0xf40d), seq 680:716, ack 1, win 501, options [nop,nop,TS val 3149013740 ecr 1455763500], length 36
+10 packets captured
+35 packets received by filter
+0 packets dropped by kernel
+------------------------Format Data---------------------------------------------------
+
+Source Host: 10.20.0.5
+Source Port: 22
+Destination Host: 198.96.85.21
+Destination Port: 36035
+
+Source Host: 10.20.0.5
+Source Port: 22
+Destination Host: 198.96.85.21
+Destination Port: 36035
+
+Source Host: 10.20.0.5
+Source Port: 22
+Destination Host: 198.96.85.21
+Destination Port: 36035
+
+Source Host: 10.20.0.5
+Source Port: 22
+Destination Host: 198.96.85.21
+Destination Port: 36035
+
+Source Host: 10.20.0.5
+Source Port: 22
+Destination Host: 198.96.85.21
+Destination Port: 36035
+
+Source Host: 198.96.85.21
+Source Port: 36035
+Destination Host: 10.20.0.5
+Destination Port: 22
+
+Source Host: 10.20.0.5
+Source Port: 22
+Destination Host: 198.96.85.21
+Destination Port: 36035
+
+Source Host: 10.20.0.5
+Source Port: 22
+Destination Host: 198.96.85.21
+Destination Port: 36035
+
+Source Host: 10.20.0.5
+Source Port: 22
+Destination Host: 198.96.85.21
+Destination Port: 36035
+
+Source Host: 10.20.0.5
+Source Port: 22
+Destination Host: 198.96.85.21
+Destination Port: 36035

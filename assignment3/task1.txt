@@ -1,0 +1,68 @@
+Domain : - https://learn.georgebrown.ca/
+
+Cookie Name : _ga
+Cookie Value:GA1.2.221865964.1663965409
+Cookie Path : /
+
+Cookie Name : _rdt_uuid
+Cookie Value:1702444966704.68de73e7-3211-41fc-bccf-da235e35a631
+Cookie Path : /
+
+
+
+Domain :https://gbc.mobihelp.ca
+
+Cookie Name : mobihelp_session
+Cookie Value: eyJpdiI6IjlPbWpsZW9UY3dFOVFtdXl5d2FaRlE9PSIsInZhbHVlIjoibFBUMlExUDZ0ek8xdHZ3RGlJVUJVeCtLQXRhM2NtQm1Ld05rc1FNOEN5MmtabXVteE4rYktueGU2L1d0eS9aa2NydnN4ZEhSUmhGRmN2ckNGZWUwNFY1YWoxTXpLb1F1ZEEzVzZCU2VlZkZCREpiNC9nNUJHblMrYXFPZlJQQUwiLCJtYWMiOiIyMzM0YzE0YWFkYzE5OGVlNzQ4ZGMyODExMGI3OTEwYmNlMmQ1MjJlOGJlNjQzOTBiZDkwNGMyZWU2MzQ4Y2JhIiwidGFnIjoiIn0
+Cookie Path : /
+
+Cookie Name : selectedCampus
+Cookie Value: 1
+Cookie Path : /
+
+
+
+
+
+
+Domain :https://www.amazon.ca/
+
+Cookie Name : session-token
+Cookie Value: f5PcB3G/KEm9clKg5FNtfF7PMCsnZ07HB6DWwG08TiJ4z/pNjmj6EfI9IuY71zdb8x886inFQimSx7qY0Zxtie3lfQcMrC9eMpGD63f/Dr2VO54Q2eACsuKnXWmmJosu8EYgsGmLDt96yFixXfiHSwTc1wInz0f1lxM25hMxPNbH0JLtqONLM8x6NDcjXZNy8M4pIC8O8BJ1ihaUkkF43KXZ+iYYaEwdEZkRp9cuIxP7nP9pGJuXo0z9L1nO80hXyV4qZHEXB5UZRf0amtTx7ue/SCOqq2B7TOmVkYRCdeB4RXPsGtQNbXYHWLQBb7ZSuKO8Bf6wY0dvno2m9TdOuUdk1zY2H1tjyKioOfTaY6x/voYyzWXTKsIFyPmFDiXo
+Cookie Path : /
+
+
+Cookie Name : session-id
+Cookie Value: 138-9943674-2264961
+Cookie Path : /
+
+
+
+
+
+
+
+Domain :https://www.youtube.com/
+
+Cookie Name : YSC
+Cookie Value: kDSAsWNqjwk
+Cookie Path : /
+
+Cookie Name : PREF
+Cookie Value: f6=40000000&f7=150&tz=America.Toronto&f4=4000000&f5=30000
+Cookie Path : /
+
+
+
+
+
+
+Domain : https://stackoverflow.com/
+
+Cookie Name : prov
+Cookie Value: 32d0ed86-b513-3b47-9611-3290582aafc6
+Cookie Path : /
+
+Cookie Name : g_state
+Cookie Value: {"i_p":1711134984776,"i_l":1}
+Cookie Path : /

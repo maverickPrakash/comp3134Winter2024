@@ -1,0 +1,10 @@
+Domain : https://www.amazon.ca/
+
+JS Comment :
+
+ // Nav start should be logged at this place only if request is NOT progressively loaded.
+ // For progressive loading case this metric is logged as part of skeleton.
+
+Html Comment : 
+<!-- navmet initial definition -->
+<!-- Navyaan SWM -->

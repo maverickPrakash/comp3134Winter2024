@@ -1,0 +1,134 @@
+------------------------------Command------------------------------
+
+
+sudo tcpdump -i eth0 udp -c 10 -nn -vvv
+
+------------------------------Output---------------------------------------
+root@comp3134:~# sudo tcpdump -i eth0 udp -c 10 -nn -vvv
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), snapshot length 
+262144 bytes
+17:45:53.234424 IP (tos 0x0, ttl 57, id 58071, offset 0, flags [none], 
+proto UDP (17), length 49)
+    198.96.85.21.55728 > 10.20.0.5.50000: [udp sum ok] UDP, length 21
+17:46:40.260004 IP (tos 0x0, ttl 57, id 52047, offset 0, flags [none], 
+proto UDP (17), length 41)
+    198.96.85.21.55728 > 10.20.0.5.40000: [udp sum ok] UDP, length 13
+17:47:10.646053 IP (tos 0x0, ttl 57, id 29213, offset 0, flags [none], 
+proto UDP (17), length 37)
+    198.96.85.21.55728 > 10.20.0.5.40000: [udp sum ok] UDP, length 9
+17:47:32.969083 IP (tos 0x0, ttl 57, id 35939, offset 0, flags [none], 
+proto UDP (17), length 49)
+    198.96.85.21.55728 > 10.20.0.5.40000: [udp sum ok] UDP, length 21
+17:47:49.453716 IP (tos 0x0, ttl 53, id 48324, offset 0, flags [DF], proto 
+UDP (17), length 110)
+    51.222.200.103.21207 > 134.122.40.82.6881: [udp sum ok] UDP, length 82
+17:48:05.372343 IP (tos 0x0, ttl 57, id 5831, offset 0, flags [none], 
+proto UDP (17), length 59)
+    198.96.85.21.55728 > 10.20.0.5.40000: [udp sum ok] UDP, length 31
+17:48:08.978756 IP (tos 0x10, ttl 64, id 47357, offset 0, flags [DF], 
+proto UDP (17), length 76)
+    134.122.40.82.53152 > 185.125.190.57.123: [bad udp cksum 0x26cd -> 
+0x7cfd!] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), 
+precision 0
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: 
+(unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   3918736088.227876312 
+(2024-03-06T17:48:08Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 3918736088.227876312 
+(2024-03-06T17:48:08Z)
+17:48:09.064914 IP (tos 0x0, ttl 50, id 38398, offset 0, flags [DF], proto 
+UDP (17), length 76)
+    185.125.190.57.123 > 134.122.40.82.53152: [udp sum ok] NTPv4, Server, 
+length 48
+	Leap indicator:  (0), Stratum 2 (secondary reference), poll 0 
+(1s), precision -25
+	Root Delay: 0.001266, Root dispersion: 0.000671, Reference-ID: 
+0xc944586a
+	  Reference Timestamp:  3918735648.414342180 
+(2024-03-06T17:40:48Z)
+	  Originator Timestamp: 3918736088.227876312 
+(2024-03-06T17:48:08Z)
+	  Receive Timestamp:    3918736089.016396840 
+(2024-03-06T17:48:09Z)
+	  Transmit Timestamp:   3918736089.016417071 
+(2024-03-06T17:48:09Z)
+	    Originator - Receive Timestamp:  +0.788520528
+	    Originator - Transmit Timestamp: +0.788540758
+17:48:36.207276 IP (tos 0x0, ttl 57, id 63174, offset 0, flags [none], 
+proto UDP (17), length 53)
+    198.96.85.21.55728 > 10.20.0.5.40000: [udp sum ok] UDP, length 25
+17:49:03.372680 IP (tos 0x0, ttl 57, id 25450, offset 0, flags [none], 
+proto UDP (17), length 48)
+    198.96.85.21.55728 > 10.20.0.5.40000: [udp sum ok] UDP, length 20
+10 packets captured
+10 packets received by filter
+0 packets dropped by kernel
+root@comp3134:~# 
+
+------------------------------Details---------------------------------------
+
+
+Packet 1:
+Source Host: 198.96.85.21
+Source Port: 55728
+Destination Host: 10.20.0.5
+Destination Port: 50000
+
+Packet 2:
+Source Host: 198.96.85.21
+Source Port: 55728
+Destination Host: 10.20.0.5
+Destination Port: 40000
+
+Packet 3:
+Source Host: 198.96.85.21
+Source Port: 55728
+Destination Host: 10.20.0.5
+Destination Port: 40000
+
+Packet 4:
+Source Host: 198.96.85.21
+Source Port: 55728
+Destination Host: 10.20.0.5
+Destination Port: 40000
+
+Packet 5:
+Source Host: 198.96.85.21
+Source Port: 55728
+Destination Host: 10.20.0.5
+Destination Port: 40000
+
+Packet 6:
+Source Host: 51.222.200.103
+Source Port: 21207
+Destination Host: 134.122.40.82
+Destination Port: 6881
+
+Packet 7:
+Source Host: 198.96.85.21
+Source Port: 55728
+Destination Host: 10.20.0.5
+Destination Port: 40000
+
+Packet 8:
+Source Host: 134.122.40.82
+Source Port: 53152
+Destination Host: 185.125.190.57
+Destination Port: 123
+
+Packet 9:
+Source Host: 185.125.190.57
+Source Port: 123
+Destination Host: 134.122.40.82
+Destination Port: 53152
+
+Packet 10:
+Source Host: 198.96.85.21
+Source Port: 55728
+Destination Host: 10.20.0.5
+Destination Port: 40000
